@@ -1,10 +1,3 @@
-note
-    description: "[
-        Singleton for accessing RANDOM_GENERATOR.
-    ]"
-    author: "Kevin Banh"
-    date: "April 30, 2019"
-    revision: "1"
 
 expanded class
 	RANDOM_GENERATOR_ACCESS
