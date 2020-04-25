@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<system xmlns="http://www.eiffel.com/developers/xml/configuration-1-18-0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.eiffel.com/developers/xml/configuration-1-18-0 http://www.eiffel.com/developers/xml/configuration-1-18-0.xsd" name="etf_template" uuid="8D1F0E28-39AF-4EF2-9AC7-A64D7C6ACF0A">
+	<target name="etf_template">
+		<description>EiffelBuild Generated Configuration for Project etf_template.</description>
+		<root cluster="root_cluster" class="ETF_GUI" feature="make_and_launch"/>
+		<option warning="true" manifest_array_type="mismatch_warning">
+			<assertions precondition="true" postcondition="true" check="true" supplier_precondition="true"/>
+		</option>
+		<capability>
+			<concurrency support="scoop"/>
+			<void_safety support="all" use="all"/>
+		</capability>
+		<precompile name="vision2_pre" location="$ISE_PRECOMP\vision2.ecf"/>
+		<library name="base" location="$ISE_LIBRARY\library\base\base.ecf"/>
+		<library name="vision2" location="$ISE_LIBRARY\library\vision2\vision2.ecf"/>
+		<cluster name="root_cluster" location=".\" recursive="true">
+			<file_rule>
+				<exclude>/.svn$</exclude>
+				<exclude>/CVS$</exclude>
+				<exclude>/EIFGENs$</exclude>
+			</file_rule>
+		</cluster>
+	</target>
+	<target name="etf_template_dotnet" extends="etf_template">
+		<setting name="msil_generation" value="true"/>
+	</target>
+</system>
+
