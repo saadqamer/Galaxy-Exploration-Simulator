@@ -1,12 +1,3 @@
-note
-    description: "[
-        The {RANDOM_GENERATOR} class is used to generate
-        random numbers, either using the same seed 
-        (deterministically).
-    ]"
-    author: "Kevin Banh"
-    date: "April 30, 2019"
-    revision: "1"
 
 class
     RANDOM_GENERATOR
