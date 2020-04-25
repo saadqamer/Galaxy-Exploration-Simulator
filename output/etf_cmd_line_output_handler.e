@@ -1,8 +1,3 @@
-note
-	description: "An output handler for the command-line mode of ETF."
-	author: "JSO and Jackie Wang"
-	date: "$Date$"
-	revision: "$Revision$"
 
 class
 	ETF_CMD_LINE_OUTPUT_HANDLER
