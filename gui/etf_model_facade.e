@@ -1,8 +1,3 @@
-note
-	description: "A facade class for easy manipulation of the business objects."
-	author: "Jackie Wang"
-	date: "$Date$"
-	revision: "$Revision$"
 
 class
 	ETF_MODEL_FACADE
