@@ -1,6 +1,6 @@
 note
 	description: "Galaxy represents a game board in simodyssey."
-	author: "Kevin B"
+	author: ""
 	date: "$Date$"
 	revision: "$Revision$"
 
